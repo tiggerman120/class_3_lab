@@ -6,6 +6,9 @@ if (userName === 'Garrett') {
   alert('Your name is Toby, ' + userName);
 } else {alert('Hello ' + userName + ' Welcome to Narnia!' + ' Do you like winter?');
 }
+
+
+
 function wrapper() {
   var ready = confirm('Are you ready');
 
@@ -91,7 +94,7 @@ function wrapper() {
   while (answeredProperly === false) {
     var answer5 = prompt('Is hiking one of my hobbies');
     //console.log(answer5.toLowerCase());
-    if (answer3.toLowerCase() === 'yes') {
+    if (answer5.toLowerCase() === 'yes') {
       answeredProperly = true;
       //console.log(answer5.toLowerCase());
       alert('Awesome job! It is totally my favorite hobby, I love the woods!');
@@ -106,3 +109,43 @@ function wrapper() {
   }
 }
 wrapper();
+
+
+
+var correctNumber = 5;
+
+for (var remainingGuess = 4; remainingGuess > 0; remainingGuess--){
+  var answer6 = parseInt(prompt('Guess a number 1-10 Good luck!'));
+  if (answer6 === correctNumber) {
+    alert('Amazing!');
+    break;
+  } else if (answer6 < correctNumber) {
+    alert('Too low!');
+  }
+  else if (answer6 > correctNumber) {
+    alert('Too high!');
+  }
+}
+if (remainingGuess === 0){
+  alert('you only get 4 tries 75 bucks for more');
+  alert('The correct answer was 5!');
+}
+
+
+var arrayAnswers1 = ['hiking', 'sportsball', 'gardening', 'drinking alcohol', 'eating', 'shooting', 'harassing passersby', 'video games', 'driving too fast'];
+var answerCorrect = arrayAnswers1[0];
+for (var answerRemain = 0; answerRemain < 6; answerRemain++) {
+  var answer7 = prompt('Which hobby is my favorite? hiking, sportsball, gardening, drinking alcohol, eating, shooting, harassing passersby, video games, driving too fast');
+  if (answer7.toLowerCase() === answerCorrect) {
+    alert('You got it!');
+    break;
+  }
+  else if (answer7.toLowerCase !== answerCorrect) {
+    alert('Incorrect!');
+  }
+  if (answerRemain === 5){
+    alert('you only get 6 tries');
+    alert('The correct answer was hiking!');
+  }
+}
+
