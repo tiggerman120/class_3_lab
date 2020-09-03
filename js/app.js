@@ -1,6 +1,6 @@
 'use strict';
 console.log('file working');
-var correctAnswersTotal = 0;
+//var correctAnswersTotal = 0;
 var userName = prompt('Please enter your name');
 if (userName === 'Garrett') {
   alert('Your name is Toby, ' + userName);
@@ -114,47 +114,47 @@ while (answeredProperly5 === false) {
 
   }
 }
+alert('Welcome past the promptpit' + userName);
 
 
 
 
+// var correctNumber = 5;
 
-var correctNumber = 5;
-
-for (var remainingGuess = 4; remainingGuess > 0; remainingGuess--){
-  var answer6 = parseInt(prompt('Guess a number 1-10 Good luck!'));
-  if (answer6 === correctNumber) {
-    alert('Amazing!');
-    correctAnswersTotal++;
-    break;
-  } else if (answer6 < correctNumber) {
-    alert('Too low!');
-  }
-  else if (answer6 > correctNumber) {
-    alert('Too high!');
-  }
-}
-if (remainingGuess === 0){
-  alert('you only get 4 tries 75 bucks for more');
-  alert('The correct answer was 5!');
-}
+// for (var remainingGuess = 4; remainingGuess > 0; remainingGuess--){
+//   var answer6 = parseInt(prompt('Guess a number 1-10 Good luck!'));
+//   if (answer6 === correctNumber) {
+//     alert('Amazing!');
+//     correctAnswersTotal++;
+//     break;
+//   } else if (answer6 < correctNumber) {
+//     alert('Too low!');
+//   }
+//   else if (answer6 > correctNumber) {
+//     alert('Too high!');
+//   }
+// }
+// if (remainingGuess === 0){
+//   alert('you only get 4 tries 75 bucks for more');
+//   alert('The correct answer was 5!');
+// }
 
 
-var arrayAnswers1 = ['hiking', 'sportsball', 'gardening', 'drinking alcohol', 'eating', 'shooting', 'harassing passersby', 'video games', 'driving too fast'];
-var answerCorrect = arrayAnswers1[0];
-for (var answerRemain = 0; answerRemain < 6; answerRemain++) {
-  var answer7 = prompt('Which hobby is my favorite? hiking, sportsball, gardening, drinking alcohol, eating, shooting, harassing passersby, video games, driving too fast');
-  if (answer7.toLowerCase() === answerCorrect) {
-    alert('You got it!');
-    correctAnswersTotal++;
-    break;
-  }
-  else if (answer7.toLowerCase !== answerCorrect) {
-    alert('Incorrect!');
-  }
-  if (answerRemain === 5){
-    alert('you only get 6 tries');
-    alert('The correct answer was hiking!');
-  }
-}
-alert(correctAnswersTotal);
+// var arrayAnswers1 = ['hiking', 'sportsball', 'gardening', 'drinking alcohol', 'eating', 'shooting', 'harassing passersby', 'video games', 'driving too fast'];
+// var answerCorrect = arrayAnswers1[0];
+// for (var answerRemain = 0; answerRemain < 6; answerRemain++) {
+//   var answer7 = prompt('Which hobby is my favorite? hiking, sportsball, gardening, drinking alcohol, eating, shooting, harassing passersby, video games, driving too fast');
+//   if (answer7.toLowerCase() === answerCorrect) {
+//     alert('You got it!');
+//     correctAnswersTotal++;
+//     break;
+//   }
+//   else if (answer7.toLowerCase !== answerCorrect) {
+//     alert('Incorrect!');
+//   }
+//   if (answerRemain === 5){
+//     alert('you only get 6 tries');
+//     alert('The correct answer was hiking!');
+//   }
+// }
+// alert('correct answers' + correctAnswersTotal);
