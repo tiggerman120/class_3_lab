@@ -150,6 +150,8 @@ function seventyFivebucks(){
     }
 }
 
+funArray()
+function funArray() {
     var arrayAnswers1 = ['hiking', 'sportsball', 'gardening', 'drinking alcohol', 'eating', 'shooting', 'harassing passersby', 'video games', 'driving too fast'];
     var answerCorrect = arrayAnswers1[0];
     for (var answerRemain = 0; answerRemain < 6; answerRemain++) {
@@ -168,3 +170,4 @@ function seventyFivebucks(){
     }
     }
     alert('correct answers' + correctAnswersTotal);
+}
