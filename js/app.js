@@ -24,7 +24,7 @@ if (ready === true) {
       answeredProperly1 = true;
       //correctAnswersTotal = correctAnswersTotal + 1;
       //correctAnswersTotal += 1
-      correctAnswersTotal++;
+      //correctAnswersTotal++;
       //console.log(answer1.toLowerCase());
       alert('Correct! I was born in kentucky');
     } else if (answer1.toLowerCase() === 'no') {
@@ -44,7 +44,7 @@ while (answeredProperly2 === false) {
   //console.log(answer2.toLowerCase());
   if (answer2.toLowerCase() === 'yes') {
     answeredProperly2 = true;
-    correctAnswersTotal++;
+    //correctAnswersTotal++;
     //console.log(answer2.toLowerCase());
     alert('Correct! I am 26 years old!');
   } else if (answer2.toLowerCase() === 'no') {
@@ -63,7 +63,7 @@ while (answeredProperly3 === false) {
   //console.log(answer3.toLowerCase());
   if (answer3.toLowerCase() === 'no') {
     answeredProperly3 = true;
-    correctAnswersTotal++;
+    //correctAnswersTotal++;
     //console.log(answer3.toLowerCase());
     alert('Correct! I was raised in Maryland');
   } else if (answer3.toLowerCase() === 'yes') {
@@ -83,7 +83,7 @@ while (answeredProperly4 === false) {
   //console.log(answer4.toLowerCase());
   if (answer4.toLowerCase() === 'yes') {
     answeredProperly4 = true;
-    correctAnswersTotal++;
+    //correctAnswersTotal++;
     //console.log(answer4.toLowerCase());
     alert('exactamundo! I work as a nurses assistant!');
   } else if (answer4.toLowerCase() === 'no') {
@@ -102,7 +102,7 @@ while (answeredProperly5 === false) {
   //console.log(answer5.toLowerCase());
   if (answer5.toLowerCase() === 'yes') {
     answeredProperly5 = true;
-    correctAnswersTotal++;
+    //correctAnswersTotal++;
     //console.log(answer5.toLowerCase());
     alert('Awesome job! It is totally my favorite hobby, I love the woods!');
   } else if (answer5.toLowerCase() === 'no') {
