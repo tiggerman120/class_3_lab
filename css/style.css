@@ -18,8 +18,8 @@ background-color: beige;
 }
 
 main {
-height: 100%;
-border-style: dashed;
+height: fit-content;
+margin: 5px;
 font-size: 40px;
 }
 
