@@ -61,6 +61,8 @@ function ageMe() {
     }
 }
 
+raisedMd()
+function raisedMd() {
     var answeredProperly3 = false;
     while (answeredProperly3 === false) {
     var answer3 = prompt('Was I raised in Virginia? yes/no');
@@ -79,7 +81,7 @@ function ageMe() {
 
     }
     }
-
+}
 
     var answeredProperly4 = false;
     while (answeredProperly4 === false) {
