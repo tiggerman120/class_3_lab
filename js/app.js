@@ -39,8 +39,8 @@ function bornKy() {}
     }
 }
 
-ageMe ()
-function ageMe()
+ageMe()
+function ageMe() {
     var answeredProperly2 = false;
     while (answeredProperly2 === false) {
     var answer2 = prompt('Am I 26 years old? yes/no');
@@ -59,6 +59,7 @@ function ageMe()
 
     }
     }
+}
 
     var answeredProperly3 = false;
     while (answeredProperly3 === false) {
