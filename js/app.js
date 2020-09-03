@@ -127,7 +127,8 @@ function workHist() {
     alert('Welcome past the first promptpit ' + userName);
 
 
-
+seventyFivebucks()
+function seventyFivebucks(){
     var correctNumber = 5;
 
     for (var remainingGuess = 4; remainingGuess > 0; remainingGuess--){
@@ -147,7 +148,7 @@ function workHist() {
     alert('you only get 4 tries 75 bucks for more');
     alert('The correct answer was 5!');
     }
-
+}
 
     var arrayAnswers1 = ['hiking', 'sportsball', 'gardening', 'drinking alcohol', 'eating', 'shooting', 'harassing passersby', 'video games', 'driving too fast'];
     var answerCorrect = arrayAnswers1[0];
