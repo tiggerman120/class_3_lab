@@ -114,7 +114,7 @@ while (answeredProperly5 === false) {
 
   }
 }
-alert('Welcome past the promptpit' + userName);
+alert('Welcome past the promptpit ' + userName);
 
 
 
