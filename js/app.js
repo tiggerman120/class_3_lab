@@ -37,7 +37,6 @@ function bornKy() {}
         }
     }
     }
-}
 
 ageMe()
 function ageMe() {
@@ -102,6 +101,8 @@ function raisedMd() {
     }
     }
 
+    loveWoods()
+    function loveWoods() {
     var answeredProperly5 = false;
     while (answeredProperly5 === false) {
     var answer5 = prompt('Is hiking one of my hobbies');
@@ -120,8 +121,8 @@ function raisedMd() {
 
     }
     }
+}
     alert('Welcome past the first promptpit ' + userName);
-
 
 
 
