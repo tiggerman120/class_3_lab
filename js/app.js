@@ -82,6 +82,8 @@ function raisedMd() {
     }
 }
 
+workHist()
+function workHist() {
     var answeredProperly4 = false;
     while (answeredProperly4 === false) {
     var answer4 = prompt('Am I employed as a nurses assistant?');
@@ -100,7 +102,7 @@ function raisedMd() {
 
     }
     }
-
+}
     loveWoods()
     function loveWoods() {
     var answeredProperly5 = false;
